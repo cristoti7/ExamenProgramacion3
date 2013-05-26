@@ -119,6 +119,7 @@
             this.textBoxUsuario.Name = "textBoxUsuario";
             this.textBoxUsuario.Size = new System.Drawing.Size(151, 20);
             this.textBoxUsuario.TabIndex = 1;
+            this.textBoxUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxUsuario_KeyPress);
             // 
             // labelClave
             // 
@@ -163,6 +164,7 @@
             this.MaximumSize = new System.Drawing.Size(400, 400);
             this.Name = "IngresoSistema";
             this.Text = "IngresoSistema";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.IngresoSistema_KeyPress);
             this.PanelIngreso.ResumeLayout(false);
             this.PanelIngreso.PerformLayout();
             this.ResumeLayout(false);

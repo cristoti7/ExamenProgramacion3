@@ -56,5 +56,28 @@ namespace ExamenProgramacion3
 
 
         }
+
+        private void IngresoSistema_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+            if (e.KeyChar == (char)13)
+            {
+                e.Handled = true;
+                SendKeys.Send("{TAB}");
+            }
+
+
+
+
+        }
+
+        private void textBoxUsuario_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+            {
+                e.Handled = true;
+                SendKeys.Send("{TAB}");
+            }
+        }
     }
 }
