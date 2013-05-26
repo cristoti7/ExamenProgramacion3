@@ -24,7 +24,7 @@ namespace ExamenProgramacion3
 
         private void butonCerrar_Click(object sender, EventArgs e)
         {
-          
+            Close();
         }
 
         private void linkLabelIdioma_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
