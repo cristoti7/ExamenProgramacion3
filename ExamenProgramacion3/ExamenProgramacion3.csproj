@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Indice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indice.Designer.cs">
+      <DependentUpon>Indice.cs</DependentUpon>
+    </Compile>
     <Compile Include="IngresoSistema.cs">
       <SubType>Form</SubType>
     </Compile>

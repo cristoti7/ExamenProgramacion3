@@ -40,6 +40,14 @@ namespace ExamenProgramacion3
                 {
 
                     MessageBox.Show("Acceso Correcto");
+                    this.Hide();
+                   textBoxUsuario.Enabled = false;
+                  textBoxClave.Enabled = false;
+                    botonAceptar.Enabled = false;
+
+                    Indice IndiceDirectorio = new Indice();
+                    IndiceDirectorio.Visible = true;
+                    this.Visible = false;
                 }
                 else if( contador>1)
                 {
