@@ -31,7 +31,7 @@
             this.labelTituloPro3 = new System.Windows.Forms.Label();
             this.PanelIngreso = new System.Windows.Forms.Panel();
             this.linkLabelIdioma = new System.Windows.Forms.LinkLabel();
-            this.butonCerrar = new System.Windows.Forms.Button();
+            this.botonCerrar = new System.Windows.Forms.Button();
             this.botonAceptar = new System.Windows.Forms.Button();
             this.textBoxClave = new System.Windows.Forms.TextBox();
             this.textBoxUsuario = new System.Windows.Forms.TextBox();
@@ -56,7 +56,7 @@
             // 
             this.PanelIngreso.BackColor = System.Drawing.Color.Navy;
             this.PanelIngreso.Controls.Add(this.linkLabelIdioma);
-            this.PanelIngreso.Controls.Add(this.butonCerrar);
+            this.PanelIngreso.Controls.Add(this.botonCerrar);
             this.PanelIngreso.Controls.Add(this.botonAceptar);
             this.PanelIngreso.Controls.Add(this.textBoxClave);
             this.PanelIngreso.Controls.Add(this.textBoxUsuario);
@@ -79,17 +79,19 @@
             this.linkLabelIdioma.TabIndex = 4;
             this.linkLabelIdioma.TabStop = true;
             this.linkLabelIdioma.Text = "English";
+            this.linkLabelIdioma.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelIdioma_LinkClicked);
             // 
-            // butonCerrar
+            // botonCerrar
             // 
-            this.butonCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butonCerrar.ForeColor = System.Drawing.Color.Black;
-            this.butonCerrar.Location = new System.Drawing.Point(158, 160);
-            this.butonCerrar.Name = "butonCerrar";
-            this.butonCerrar.Size = new System.Drawing.Size(99, 46);
-            this.butonCerrar.TabIndex = 5;
-            this.butonCerrar.Text = "CERRAR";
-            this.butonCerrar.UseVisualStyleBackColor = true;
+            this.botonCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonCerrar.ForeColor = System.Drawing.Color.Black;
+            this.botonCerrar.Location = new System.Drawing.Point(158, 160);
+            this.botonCerrar.Name = "botonCerrar";
+            this.botonCerrar.Size = new System.Drawing.Size(99, 46);
+            this.botonCerrar.TabIndex = 5;
+            this.botonCerrar.Text = "CERRAR";
+            this.botonCerrar.UseVisualStyleBackColor = true;
+            this.botonCerrar.Click += new System.EventHandler(this.butonCerrar_Click);
             // 
             // botonAceptar
             // 
@@ -173,7 +175,7 @@
         private System.Windows.Forms.Label labelTituloPro3;
         private System.Windows.Forms.Panel PanelIngreso;
         private System.Windows.Forms.LinkLabel linkLabelIdioma;
-        private System.Windows.Forms.Button butonCerrar;
+        private System.Windows.Forms.Button botonCerrar;
         private System.Windows.Forms.Button botonAceptar;
         private System.Windows.Forms.TextBox textBoxClave;
         private System.Windows.Forms.TextBox textBoxUsuario;

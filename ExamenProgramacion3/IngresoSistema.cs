@@ -16,5 +16,44 @@ namespace ExamenProgramacion3
         {
             InitializeComponent();
         }
+
+        private void botonAceptar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butonCerrar_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void linkLabelIdioma_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+           
+            if ( linkLabelIdioma.Text == "English")
+            {
+                labelUsuario.Text = "User";
+                labelClave.Text = "Password";
+                labelAccesoSistema.Text = "System Access";
+                botonAceptar.Text = "Ok";
+                botonCerrar.Text = "Close";
+                LinkLabelIdioma.Text = "Español";
+            }
+            else
+            {
+                labUsuario.Text = "Usuario";
+                labClave.Text = "Clave";
+                labAcesoSistema.Text = "Acceso al Sistema";
+                botonAceptar.Text = "Aceptar";
+                botonCerrar.Text = "Cerrar";
+                LinkLabelIdioma.Text = "English";
+
+            }
+
+
+
+
+
+        }
     }
 }
