@@ -40,7 +40,6 @@ namespace ExamenProgramacion3
                 {
 
                     MessageBox.Show("Acceso Correcto");
-                    this.Hide();
                    textBoxUsuario.Enabled = false;
                   textBoxClave.Enabled = false;
                     botonAceptar.Enabled = false;
