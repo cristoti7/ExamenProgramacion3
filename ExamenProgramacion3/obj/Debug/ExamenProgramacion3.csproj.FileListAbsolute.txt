@@ -7,3 +7,5 @@ c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\Exa
 c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\obj\Debug\ExamenProgramacion3.csproj.GenerateResource.Cache
 c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\obj\Debug\ExamenProgramacion3.exe
 c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\obj\Debug\ExamenProgramacion3.pdb
+C:\Users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\obj\Debug\ExamenProgramacion3.Indice.resources
+C:\Users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\obj\Debug\ExamenProgramacion3.Nuevo.resources

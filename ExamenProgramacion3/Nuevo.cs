@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ExamenProgramacion3
 {
-    public partial class Indice : Form
+    public partial class Nuevo : Form
     {
-        public Indice()
+        public Nuevo()
         {
             InitializeComponent();
-        }
-
-        private void Indice_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
