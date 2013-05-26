@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IngresoSistema));
             this.labelTituloPro3 = new System.Windows.Forms.Label();
             this.PanelIngreso = new System.Windows.Forms.Panel();
             this.linkLabelIdioma = new System.Windows.Forms.LinkLabel();
@@ -85,11 +86,14 @@
             // 
             this.botonCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botonCerrar.ForeColor = System.Drawing.Color.Black;
-            this.botonCerrar.Location = new System.Drawing.Point(158, 160);
+            this.botonCerrar.Image = ((System.Drawing.Image)(resources.GetObject("botonCerrar.Image")));
+            this.botonCerrar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.botonCerrar.Location = new System.Drawing.Point(158, 154);
             this.botonCerrar.Name = "botonCerrar";
-            this.botonCerrar.Size = new System.Drawing.Size(99, 46);
+            this.botonCerrar.Size = new System.Drawing.Size(115, 52);
             this.botonCerrar.TabIndex = 5;
             this.botonCerrar.Text = "CERRAR";
+            this.botonCerrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.botonCerrar.UseVisualStyleBackColor = true;
             this.botonCerrar.Click += new System.EventHandler(this.butonCerrar_Click);
             // 
@@ -97,11 +101,14 @@
             // 
             this.botonAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botonAceptar.ForeColor = System.Drawing.Color.Black;
-            this.botonAceptar.Location = new System.Drawing.Point(40, 160);
+            this.botonAceptar.Image = ((System.Drawing.Image)(resources.GetObject("botonAceptar.Image")));
+            this.botonAceptar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.botonAceptar.Location = new System.Drawing.Point(34, 154);
             this.botonAceptar.Name = "botonAceptar";
-            this.botonAceptar.Size = new System.Drawing.Size(101, 46);
+            this.botonAceptar.Size = new System.Drawing.Size(118, 52);
             this.botonAceptar.TabIndex = 3;
             this.botonAceptar.Text = "ACEPTAR";
+            this.botonAceptar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.botonAceptar.UseVisualStyleBackColor = true;
             this.botonAceptar.Click += new System.EventHandler(this.botonAceptar_Click);
             // 
@@ -158,10 +165,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(313, 344);
+            this.ClientSize = new System.Drawing.Size(305, 313);
             this.Controls.Add(this.PanelIngreso);
             this.Controls.Add(this.labelTituloPro3);
-            this.MaximumSize = new System.Drawing.Size(400, 400);
+            this.MaximumSize = new System.Drawing.Size(321, 351);
             this.Name = "IngresoSistema";
             this.Text = "IngresoSistema";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.IngresoSistema_KeyPress);
