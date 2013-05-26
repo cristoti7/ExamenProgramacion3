@@ -162,7 +162,7 @@
             this.Controls.Add(this.labelTituloPro3);
             this.MaximumSize = new System.Drawing.Size(400, 400);
             this.Name = "IngresoSistema";
-            this.Text = "Form1";
+            this.Text = "IngresoSistema";
             this.PanelIngreso.ResumeLayout(false);
             this.PanelIngreso.PerformLayout();
             this.ResumeLayout(false);

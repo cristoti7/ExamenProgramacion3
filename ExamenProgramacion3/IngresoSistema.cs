@@ -37,17 +37,18 @@ namespace ExamenProgramacion3
                 labelAccesoSistema.Text = "System Access";
                 botonAceptar.Text = "Ok";
                 botonCerrar.Text = "Close";
-                LinkLabelIdioma.Text = "Español";
+                linkLabelIdioma.Text = "Español";
+                labelTituloPro3.Text = "PROGRAMMING 3";
             }
             else
             {
-                labUsuario.Text = "Usuario";
-                labClave.Text = "Clave";
-                labAcesoSistema.Text = "Acceso al Sistema";
+                labelUsuario.Text = "Usuario";
+                labelClave.Text = "Clave";
+                labelAccesoSistema.Text = "Acceso al Sistema";
                 botonAceptar.Text = "Aceptar";
                 botonCerrar.Text = "Cerrar";
-                LinkLabelIdioma.Text = "English";
-
+                linkLabelIdioma.Text = "English";
+                labelTituloPro3.Text = "PROGRAMACION 3";
             }
 
 
