@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace ExamenProgramacion3
 {
@@ -20,7 +21,42 @@ namespace ExamenProgramacion3
         private void botonAceptar_Click(object sender, EventArgs e)
         {
 
+
+            try{
+
+            string myConnection= "datasource=localhost;port=3306;username=root;password=0569";
+            MySqlConnection  myConn= new MySqlConnection(myConnection);
+            MySqlCommand ComandoSelect= new MySqlCommand("select * from directorio.usuarios where login='"+ this.textBoxUsuario.Text + "' and password='" + this.textBoxClave.Text + "';",myConn);
+            MySqlDataReader myReader;
+            myConn.Open();
+                myReader= ComandoSelect.ExecuteReader();
+                int contador = 0;
+                while(myReader.Read())
+                {
+                 contador = contador + 1;
+
+                }
+                if (contador==1)
+                {
+
+                    MessageBox.Show("Acceso Correcto");
+                }
+                else if( contador>1)
+                {
+
+                    MessageBox.Show(" Usuario y Contraseña duplicados acceso denegado");
+                }
+                else  MessageBox.Show("usuario y contraseña son incorrectos");
+
+                myConn.Close();
+            }
+            catch(Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
         }
+        
 
         private void butonCerrar_Click(object sender, EventArgs e)
         {
