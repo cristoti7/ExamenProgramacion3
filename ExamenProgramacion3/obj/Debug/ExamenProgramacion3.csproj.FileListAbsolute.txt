@@ -1,0 +1,9 @@
+c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\bin\Debug\ExamenProgramacion3.exe.config
+c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\bin\Debug\ExamenProgramacion3.exe
+c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\bin\Debug\ExamenProgramacion3.pdb
+c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\obj\Debug\ExamenProgramacion3.csprojResolveAssemblyReference.cache
+c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\obj\Debug\ExamenProgramacion3.IngresoSistema.resources
+c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\obj\Debug\ExamenProgramacion3.Properties.Resources.resources
+c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\obj\Debug\ExamenProgramacion3.csproj.GenerateResource.Cache
+c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\obj\Debug\ExamenProgramacion3.exe
+c:\users\crissillo\documents\visual studio 2012\Projects\ExamenProgramacion3\ExamenProgramacion3\obj\Debug\ExamenProgramacion3.pdb
